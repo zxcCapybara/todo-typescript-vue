@@ -1,0 +1,1 @@
+export type activeFilters = "All" | "Active" | "Done"

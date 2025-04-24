@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  @apply w-full border-1 border-gray-100 rounded-xl;
+}
+
+.not-active {
+  @apply rounded-xl border-gray-100 border-1;
+}
+
+.todo-done {
+  @apply line-through;
+}
+
+.todo-done .done {
+  @apply fill-red-500;
+}
